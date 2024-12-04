@@ -1120,29 +1120,6 @@
     <comp lib="5" loc="(560,40)" name="Text">
       <a name="text" val="DON'T CHANGE THE LOCATIONS OF THE INPUTS AND OUTPUTS!"/>
     </comp>
-    <comp lib="5" loc="(565,355)" name="Text">
-      <a name="text" val="This is only if you choose to do the ROM option"/>
-    </comp>
-    <comp lib="5" loc="(620,510)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="CONNECT"/>
-    </comp>
-    <comp lib="5" loc="(620,530)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="WIRE"/>
-    </comp>
-    <comp lib="5" loc="(620,550)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="TO"/>
-    </comp>
-    <comp lib="5" loc="(620,570)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="USE"/>
-    </comp>
-    <comp lib="5" loc="(620,590)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="ROM"/>
-    </comp>
     <comp lib="5" loc="(670,140)" name="Text">
       <a name="text" val="OUTPUT from your circuit"/>
     </comp>
@@ -1486,8 +1463,7 @@
     <wire from="(620,210)" to="(620,230)"/>
     <wire from="(620,3700)" to="(620,3720)"/>
     <wire from="(620,3720)" to="(1030,3720)"/>
-    <wire from="(620,480)" to="(620,490)"/>
-    <wire from="(620,600)" to="(620,620)"/>
+    <wire from="(620,480)" to="(620,620)"/>
     <wire from="(620,620)" to="(660,620)"/>
     <wire from="(630,1950)" to="(630,1980)"/>
     <wire from="(630,1980)" to="(1000,1980)"/>
