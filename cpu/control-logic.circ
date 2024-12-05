@@ -327,6 +327,14 @@
       <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(1120,1250)" name="Constant"/>
+    <comp lib="0" loc="(1170,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="is_jal"/>
+    </comp>
+    <comp lib="0" loc="(1170,850)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="is_jalr"/>
+    </comp>
     <comp lib="0" loc="(1190,1600)" name="Tunnel">
       <a name="label" val="is_add"/>
     </comp>
@@ -1044,8 +1052,8 @@
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="1" loc="(1380,560)" name="AND Gate"/>
-    <comp lib="1" loc="(1540,580)" name="OR Gate">
-      <a name="inputs" val="4"/>
+    <comp lib="1" loc="(1580,580)" name="OR Gate">
+      <a name="inputs" val="6"/>
     </comp>
     <comp lib="1" loc="(850,3040)" name="AND Gate"/>
     <comp lib="1" loc="(850,3120)" name="AND Gate"/>
@@ -1148,8 +1156,8 @@
 101f 141f 161f 109f 149f 159f 111f 121f
 129f 169f 131f 139f 5f 5f 5f 1051
 10d1 1151 1251 12d1 16d1 1351 13d1 3852
-3852 3852 4*3064 3074 3074 1077 1057 2079
-1051
+3852 3852 4*3064 3074 3074 1077 17d7 2079
+2051
 </a>
       <a name="dataWidth" val="16"/>
     </comp>
@@ -1281,6 +1289,8 @@
     <wire from="(1170,2620)" to="(1190,2620)"/>
     <wire from="(1170,2740)" to="(1170,2780)"/>
     <wire from="(1170,2780)" to="(1190,2780)"/>
+    <wire from="(1170,800)" to="(1500,800)"/>
+    <wire from="(1170,850)" to="(1530,850)"/>
     <wire from="(1180,1180)" to="(1210,1180)"/>
     <wire from="(1180,1240)" to="(1210,1240)"/>
     <wire from="(1180,2510)" to="(1180,2520)"/>
@@ -1316,11 +1326,11 @@
     <wire from="(1410,2770)" to="(1450,2770)"/>
     <wire from="(1410,2790)" to="(1440,2790)"/>
     <wire from="(1410,560)" to="(1410,570)"/>
-    <wire from="(1410,570)" to="(1490,570)"/>
+    <wire from="(1410,570)" to="(1450,570)"/>
     <wire from="(1420,2630)" to="(1420,2660)"/>
     <wire from="(1420,2630)" to="(1470,2630)"/>
     <wire from="(1420,590)" to="(1420,640)"/>
-    <wire from="(1420,590)" to="(1490,590)"/>
+    <wire from="(1420,590)" to="(1460,590)"/>
     <wire from="(1430,2680)" to="(1430,2750)"/>
     <wire from="(1430,2680)" to="(1480,2680)"/>
     <wire from="(1440,2700)" to="(1440,2730)"/>
@@ -1329,10 +1339,18 @@
     <wire from="(1440,2780)" to="(1460,2780)"/>
     <wire from="(1450,2730)" to="(1450,2770)"/>
     <wire from="(1450,2730)" to="(1460,2730)"/>
-    <wire from="(1450,470)" to="(1450,560)"/>
-    <wire from="(1450,560)" to="(1490,560)"/>
-    <wire from="(1490,600)" to="(1490,710)"/>
-    <wire from="(1540,580)" to="(1710,580)"/>
+    <wire from="(1450,470)" to="(1450,550)"/>
+    <wire from="(1450,550)" to="(1530,550)"/>
+    <wire from="(1450,560)" to="(1450,570)"/>
+    <wire from="(1450,560)" to="(1530,560)"/>
+    <wire from="(1460,570)" to="(1460,590)"/>
+    <wire from="(1460,570)" to="(1530,570)"/>
+    <wire from="(1490,590)" to="(1490,710)"/>
+    <wire from="(1490,590)" to="(1530,590)"/>
+    <wire from="(1500,600)" to="(1500,800)"/>
+    <wire from="(1500,600)" to="(1530,600)"/>
+    <wire from="(1530,610)" to="(1530,850)"/>
+    <wire from="(1580,580)" to="(1710,580)"/>
     <wire from="(200,210)" to="(200,230)"/>
     <wire from="(220,230)" to="(230,230)"/>
     <wire from="(230,470)" to="(280,470)"/>
